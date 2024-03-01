@@ -1,17 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms</title>
 </head>
+
 <body>
-    <form >
+    <form>
         <label for="Username">Username</label>
         <div><input type="text" id="Username" required></div>
-        <label for="password" >password</label>
+        <label for="password">password</label>
         <div><input type="password" id="password" required></div>
         <div><input type="submit"></div>
     </form>
+    <form action="">
+
+        <div><label for="">email</label></div>
+        <input type="email" placeholder="abcd@gmail.com">
+
+        <div><label for="">number</label><input type="number"></div>
+        <div><label for="">url</label><input type="url"></div>
+        <div><label for="">range</label><input type="range" min="0" max="100" step="10"></div>
+        <input type="submit">
+
+    </form>
 </body>
+
 </html>
