@@ -1,0 +1,13 @@
+h1,p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* nested */
+article p{
+    color: red;
+}
+
+
+#blog-name :hover{
+    color: aqua;
+}
